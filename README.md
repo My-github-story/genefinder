@@ -4,7 +4,7 @@ This tool finds Open Reading Frames (ORFs) in FASTA files.
 1) Python 3.6+
 2) BioPython
 # Installation
-1) Clone this repository
+1) Clone this repository <br>
 2)Install dependencies: ```pip install biopython```
 
 # Usage
@@ -28,7 +28,7 @@ cd BioE_week_4 <br>
 git init <br>
 touch genefinder.py README.md
 
-# Implementing genefinder
+## Implementing genefinder
 nano genefinder.py <br>
 git add genefinder.py README.md <br>
 git commit -m "added genefinder.py"
