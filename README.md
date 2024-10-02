@@ -67,6 +67,6 @@ git commit -m "added genefinder_rbs.py"<br>
 ```python genefinder_rbs.py /home/khant0a/genomes/ecoli.fna -l 100 -u 20 -r AGGAGG```
 
 ## Push repo to github
-git remote add origin https://github.com/ashhadm/BioE_week_4.git<br>
+git remote add origin https://github.com/My-github-story/genefinder/blob/master/README.md<br>
 git branch -M main<br>
 git push -u origin main
