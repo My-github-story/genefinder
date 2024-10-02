@@ -29,7 +29,7 @@ python genefinder_rbs.py input_file.fna -l min_length -u upstream_bp -r rbs_sequ
 ```touch genefinder.py README.md```
 
 # Implementing genefinder
-nano genefinder.py
+nano genefinder.py <br>
 git add genefinder.py README.md
 git commit -m "added genefinder.py"
 
