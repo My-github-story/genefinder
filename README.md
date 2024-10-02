@@ -23,23 +23,23 @@ python genefinder_rbs.py input_file.fna -l min_length -u upstream_bp -r rbs_sequ
 
 # Steps followed to create this repo
 ## Initialize Directory for Git
-```mkdir BioE_week_4```
-```cd BioE_week_4```
-```git init```
-```touch genefinder.py README.md```
+mkdir BioE_week_4 <br>
+cd BioE_week_4 <br>
+git init <br>
+touch genefinder.py README.md
 
 # Implementing genefinder
 nano genefinder.py <br>
-git add genefinder.py README.md
+git add genefinder.py README.md <br>
 git commit -m "added genefinder.py"
 
 ### command-
 ```python genefinder.py /home/khant0a/genomes/ecoli.fna > output1.txt```
 
 ## Implementing gene finder with reverse complements
-touch genefinder_reverse.py
-nano genefinder_reverse.py
-git add genefinder_reverse.py 
+touch genefinder_reverse.py<br>
+nano genefinder_reverse.py<br>
+git add genefinder_reverse.py <br>
 git commit -m "added genefinder_reverse.py"
 
 ### command-
@@ -49,24 +49,24 @@ git commit -m "added genefinder_reverse.py"
 ```find /home/khant0a/ncbi_dataset/data -type f -name "*GCF*.fna" | while read genome; do python genefinder_reverse.py "$genome"; done > all_orfs.txt```
 
 ## Implementing gene finder with length filter
-touch genefinder_filtered.py
-nano genefinder_filtered.py
-git add genefinder_reverse.py 
+touch genefinder_filtered.py<br>
+nano genefinder_filtered.py<br>
+git add genefinder_reverse.py <br>
 git commit -m "added genefinder_filtered.py"
 
 ### command-
 ```python genefinder_filtered.py /home/khant0a/genomes/ecoli.fna -l 100```
 
 ## Implementing gene finder with length, rbs site and rbs type filter
-touch genefinder_rbs.py
-nano genefinder_rbs.py
-git add genefinder_rbs.py 
-git commit -m "added genefinder_rbs.py"
+touch genefinder_rbs.py<br>
+nano genefinder_rbs.py<br>
+git add genefinder_rbs.py<br>
+git commit -m "added genefinder_rbs.py"<br>
 
 ### command-
 ```python genefinder_rbs.py /home/khant0a/genomes/ecoli.fna -l 100 -u 20 -r AGGAGG```
 
 ## Push repo to github
-git remote add origin https://github.com/ashhadm/BioE_week_4.git
-git branch -M main
+git remote add origin https://github.com/ashhadm/BioE_week_4.git<br>
+git branch -M main<br>
 git push -u origin main
