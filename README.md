@@ -1,13 +1,13 @@
 # BioE_week_4 - Gene Finder Tool
 This tool finds Open Reading Frames (ORFs) in FASTA files.
-## Requirements
+# Requirements
 1) Python 3.6+
 2) BioPython
-## Installation
+# Installation
 1) Clone this repository
 2)Install dependencies: ```pip install biopython```
 
-## Usage
+# Usage
 
 ### For simple gene finder
 python genefinder.py input_file.fna
@@ -33,7 +33,7 @@ nano genefinder.py
 git add genefinder.py README.md
 git commit -m "added genefinder.py"
 
-### usage
+### command-
 python genefinder.py /home/khant0a/genomes/ecoli.fna > output1.txt
 
 ## Implementing gene finder with reverse complements
@@ -42,7 +42,7 @@ nano genefinder_reverse.py
 git add genefinder_reverse.py 
 git commit -m "added genefinder_reverse.py"
 
-### usage
+### command-
 python genefinder_reverse.py /home/khant0a/genomes/ecoli.fna > output2.txt
 
 ## Applying code to all 14 downloaded genomes
@@ -54,7 +54,7 @@ nano genefinder_filtered.py
 git add genefinder_reverse.py 
 git commit -m "added genefinder_filtered.py"
 
-### usage
+### command-
 python genefinder_filtered.py /home/khant0a/genomes/ecoli.fna -l 100
 
 ## Implementing gene finder with length, rbs site and rbs type filter
@@ -63,7 +63,7 @@ nano genefinder_rbs.py
 git add genefinder_rbs.py 
 git commit -m "added genefinder_rbs.py"
 
-### usage
+### command-
 python genefinder_rbs.py /home/khant0a/genomes/ecoli.fna -l 100 -u 20 -r AGGAGG
 
 ## Push repo to github
