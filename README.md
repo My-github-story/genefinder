@@ -23,10 +23,10 @@ python genefinder_rbs.py input_file.fna -l min_length -u upstream_bp -r rbs_sequ
 
 ## Steps followed to create this repo
 ### Initialize Directory for Git
-mkdir BioE_week_4
-cd BioE_week_4
-git init
-touch genefinder.py README.md
+```mkdir BioE_week_4```
+```cd BioE_week_4```
+```git init```
+```touch genefinder.py README.md```
 
 ### Implementing genefinder
 nano genefinder.py
