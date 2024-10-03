@@ -1,3 +1,10 @@
+#I was assigned to extend the previous tool that identifies open reading frames (ORFs) 
+#within a genome sequence stored in a FASTA file. The challenge involved searching for ORFs not 
+#only in the original sequence but also in its reverse complement, which meant exploring all six 
+#possible reading frames. While I was already familiar with generating reverse complements from an 
+#earlier assignment, I needed clarification on how to integrate this into the tool and handle all the 
+#frames efficiently. Additionally, I considered using BioPython for certain functionalities and sought guidance on that integration.
+
 import argparse
 from Bio import SeqIO
 from Bio.Seq import Seq
