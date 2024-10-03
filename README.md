@@ -70,3 +70,5 @@ git commit -m "added genefinder_rbs.py"<br>
 git remote add origin https://github.com/My-github-story/genefinder/blob/master/README.md<br>
 git branch -M main<br>
 git push -u origin main
+
+### The output files for the problems 4,5 and 6 were too large to be pushed to the repository.
