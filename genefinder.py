@@ -1,3 +1,11 @@
+#For this problem, I was tasked with processing a genome sequence stored in a FASTA file. 
+#Specifically, I needed to write a tool that could identify gene-like regions 
+#by searching for open reading frames (ORFs), marked by the 'ATG' 
+#start codon and stop codons ('TAA', 'TAG', 'TGA'). The tool had to consider three reading frames, 
+#excluding reverse complements. I sought help in clarifying the approach to reading the FASTA file, 
+#identifying the regions between the start and stop codons, and efficiently handling command-line inputs. 
+#The guidance I received greatly helped me structure my solution.
+
 import argparse
 from Bio import SeqIO
 from Bio.Seq import Seq
